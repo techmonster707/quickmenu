@@ -25,7 +25,7 @@
 
 				  	<?php if(is_feature($id,'packages')==1 && is_active($id,'packages')): ?>
 				      <li class="nav-item <?= isset($page_title) && $page_title=="Packages"?"active":"" ;?>">
-				        <a class="nav-link" href="<?= url('packages/'.$slug) ;?>"><?= get_features_name('packages');?></a>
+				        <a class="nav-link" href="<?= url('packages/'.$slug) ;?>" target="_blank"><?= get_features_name('packages');?></a>
 				      </li>
 				  	<?php endif;?>
 
