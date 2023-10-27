@@ -163,7 +163,7 @@
         <div class="row">
          <div class="col-md-12">
            <div class="text-center seeMore_btn">
-             <a href="<?= base_url('packages/'.$slug) ;?>" class="btn custom-btn seemomre"><?= lang('see_more'); ?></a>
+             <a href="<?= base_url('packages/'.$slug) ;?>" class="btn custom-btn seemomre" target="_blank"><?= lang('see_more'); ?></a>
            </div>
          </div>
        </div>
