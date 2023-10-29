@@ -9,7 +9,7 @@
 					<div class="row">
 				        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
 				          <div data-aos="zoom-out" data-aos-delay='1000'>
-				            <h1><?= !empty($home)?html_escape($home['heading']):'Create Your space  With ' ;?><span> <?=  html_escape($settings['site_name']);?></span></h1>
+				            <h1><?= !empty($home)?html_escape($home['heading']):'Create Your space With ' ;?><span> <?=  html_escape($settings['site_name']);?></span></h1>
 				            <h2><?= !empty($home)?html_escape($home['sub_heading']):'Create The Great First Impression' ;?></h2>
 				            <div class="text-center text-lg-left home_button">
 				            	
